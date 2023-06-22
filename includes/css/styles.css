@@ -1,0 +1,168 @@
+*{
+    padding:0;
+    margin:0;
+}
+html{
+    background-color:black ;
+    display:flex;
+    justify-content: center;
+}
+body{
+    flex:0 1 auto;
+    width:80vw;
+    height:100vh;
+    display:flex;
+    
+    
+    flex-direction: column;
+}
+.heading{
+    display:flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    flex:1;
+}
+.heading_logo_menu{
+flex:auto;
+display:flex;
+flex-direction: row;
+
+}
+.heading_logo{
+flex:auto;
+font-size:24px;
+color: #F9FAF8;
+}
+.heading_menu{
+    flex:auto;
+}
+.heading_info{
+    flex:auto;
+    display:flex;
+}
+.heading_info_description{
+    flex:auto;;
+}
+.heading_info_image{
+    flex:auto;
+}
+#links_menu li{
+    text-decoration: none;
+    display:inline;
+    list-style: none;
+    font-size:18px;
+    color: #E5E7EB;
+}
+
+.heading_info_description h6{
+    font-size:18px;
+    color: #E5E7EB;
+}
+.heading_info_description h2{
+    font-size:48px;
+    font-style:extra-bold;
+    color:#F9FAF8;
+}
+#heading_info_image{
+    width:150px ;
+    height: 50px;
+}
+.body_content{
+    background-color: #F9FAF8;
+    flex:1;
+   display:flex;
+   flex-direction: column;
+}
+.body_content_title{
+    flex:auto;
+    align-self:center;
+}
+.body_content_title h3{
+    font-size:36px;
+    font-style:extra-bold;
+    color: #1F2937;
+
+    
+}
+figure figcaption{
+    color:#1F2937 ;
+}
+#illustration1, #illustration2, #illustration3, #illustration4{
+    width: 100px;
+    height: 100px;
+}
+.body_content_illustrations{
+    display: flex;
+    justify-content: space-around;
+    flex:auto;
+}
+#illustration1{
+flex:auto;
+}
+#illustration2{
+    flex:auto;   
+}
+#illustration3{
+    flex:auto;  
+}
+#illustration4{
+    flex:auto;  
+}
+.testimonial{
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style:italic;
+    flex:auto;
+    display:flex;
+   flex-direction: column;
+}
+.testimonial_content{
+    flex:auto;
+}
+.testimonial_author{
+    flex: auto;
+    align-self: flex-end;
+}
+.communication{
+    background-color: #F9FAF8;
+    flex:1;
+    
+}
+.advert{
+    display:flex;
+   
+    background-color: #3882F6; 
+    width:70%;
+    height:60%;
+}
+.advert_content{
+    flex:auto;
+    
+}
+.advert_btn{
+    flex:auto;
+   
+}
+.advert_btn a{
+    text-decoration: none;
+    color:#F9FAF8 ;
+    border:4px solid #F9FAF8;
+    border-radius: 8px;
+}
+footer{
+    background-color: #1F2937;
+    flex:1;
+    font-size:18px;
+    color:#F9FAF8;
+    display:flex;
+    justify-content: space-evenly;
+}
+.copyright{
+    flex:auto;
+    align-self: flex-end;
+}
+.developers{
+    flex:auto;
+    align-self: flex-end;
+    justify-self: flex-end;
+}
